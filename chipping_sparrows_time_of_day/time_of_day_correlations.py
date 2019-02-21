@@ -23,6 +23,7 @@ print(data_for_TOD.shape)
 data_for_TOD = data_for_TOD[data_for_TOD['RecordingTimeSeconds'] < 12*3600]
 
 print(data_for_TOD.columns)
+quit()
 print(data_for_TOD.RecordingTime)
 
 """
@@ -65,8 +66,8 @@ sns.set(style='white',
             'ytick.labelsize': 8})
 
 g = sns.pairplot(data=data_for_TOD,
-                 x_vars=data_for_TOD.columns[4],
-                 y_vars=data_for_TOD.columns[5:],
+                 x_vars=data_for_TOD.columns[5],
+                 y_vars=data_for_TOD.columns[8:],
                  kind='reg')
 
 g.map(corrfunc)
