@@ -32,12 +32,11 @@ data_for_TOD = log_song_data_XCML[['CatalogNo',
                                    'AvgSilenceDuration_ms',
                                    'NumSyllables']]
 
-data_for_TOD.insert(4, 'RecordingTimeSeconds', pd.to_datetime(data_for_TOD[
+data_for_TOD.insert(5, 'RecordingTimeSeconds', pd.to_datetime(data_for_TOD[
                                                           'RecordingTime']))
 data_for_TOD['RecordingTimeSeconds'] = [t.hour * 3600 + t.minute * 60 +
                                         t.second for t in data_for_TOD[
                                         'RecordingTimeSeconds']]
-print(data_for_TOD.columns)
 
 column_names = ['CatalogNo',
                 'RecordingDay',
@@ -56,4 +55,4 @@ data_for_TOD.columns = column_names
 data_for_TOD.to_csv("C:/Users/abiga/Box "
                     "Sync/Abigail_Nicole/ChippiesTimeOfDay"
                     "/FinalChippiesDataReExportedAs44100Hz_LogTransformed"
-                    "_forTOD.csv")
+                    "_forTOD.csv", index=False)
