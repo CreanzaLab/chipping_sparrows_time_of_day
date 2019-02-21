@@ -15,9 +15,10 @@ Create csv file with each song file categorized as before or after sunrise, twil
 Note, only ended up using, before sunrise, after sunrise and afternoon.
 """
 #read in data
-table = ascii.read("C:/Users/abiga\Box "
-                   "Sync\Abigail_Nicole\ChippiesProject\FinalDataCompilation"
-                   "\FinalDataframe_CombinedTables_withReChipper_thenWithReExportedAs44100Hz_LogTransformed.csv",
+table = ascii.read("C:/Users/abiga/Box "
+                    "Sync/Abigail_Nicole/ChippiesTimeOfDay"
+                    "/FinalChippiesDataReExportedAs44100Hz_LogTransformed"
+                    "_forTOD.csv",
                    delimiter=',')
 
 relative_sunrise = []
@@ -100,6 +101,8 @@ for i in range(len(table)):
 
 table = Table([table['CatalogNo'], relative_sunrise, relative_civil, relative_nautical, relative_astronomical],
               names=('CatalogNo', 'Sunrise', 'CivilTwilight', 'NauticalTwilight', 'AstronomicalTwilight'))
-with open('C:/Users/abiga/Box Sync/Abigail_Nicole/ChippiesProject/StatsOfFinalData_withReChipperReExported'
-          '/TimeAnalysis/FinalData_LogTransformed_relativeToSunriseTwilightsNoon.csv', 'wb') as outfile:
+with open("C:/Users/abiga/Box "
+          "Sync/Abigail_Nicole/ChippiesTimeOfDay"
+          "/FinalChippiesDataReExportedAs44100Hz_LogTransformed"
+          "_forTOD_SunriseTwilightNoon.csv", 'wb') as outfile:
     ascii.write(table, format='csv', output=outfile)
