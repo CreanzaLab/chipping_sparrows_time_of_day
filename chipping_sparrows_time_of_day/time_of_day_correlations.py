@@ -11,8 +11,8 @@ import numpy.ma as ma
 import time
 
 """
-Load data and organize/subset for correlations between 16 song variables and 
-latitude, longitude, and year 
+Load data and organize/subset for correlations between time of day
+and 4 song variables
 """
 data_path = ("C:/Users/abiga/Box "
              "Sync/Abigail_Nicole/ChippiesTimeOfDay"
@@ -27,8 +27,7 @@ quit()
 print(data_for_TOD.RecordingTime)
 
 """
-Continuous Stats Test on 16 chosen song variables (pearsons and spearmans, 
-only use spearmans for the paper) 
+Continuous Stats Test
 """
 
 def corrfunc(x, y, **kws):

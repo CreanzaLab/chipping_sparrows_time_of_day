@@ -76,8 +76,7 @@ with open("C:/Users/abiga/Box "
                              ])
 
 """"
-Box plots (change out the sv, the index for title, and the formatting for the two different box plot sets - bout 
-duration and number of syllables)
+Box plots
 """
 
 sv_titles = ['Duration of Song Bout (s)',
