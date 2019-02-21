@@ -45,6 +45,8 @@ combined_df = combined_df.drop(combined_df[combined_df.Sunrise ==
 print(combined_df.columns)
 print(combined_df.groupby('Sunrise').count()['CatalogNo'])
 
+song_variables = combined_df.columns[1:5]
+
 """
 Wilcoxon Ranksums
 """
@@ -60,11 +62,6 @@ with open("C:/Users/abiga/Box "
                          'After Sunrise and After Noon p-value'
                          ])
 
-    song_variables = ['Duration of Song Bout (log(ms))',
-                      'Mean Syllable Duration (log(ms))',
-                      'Mean Inter-Syllable Silence Duration (log(ms))',
-                      'Total Number of Syllables (log(number))']
-
     for sv in song_variables:
         before_sunrise = combined_df.loc[combined_df['Sunrise'] ==
                                          'before sunrise', sv]
@@ -77,47 +74,20 @@ with open("C:/Users/abiga/Box "
                              ranksums(before_sunrise, sunrise_after_noon)[1],
                              ranksums(after_sunrise, sunrise_after_noon)[1]
                              ])
-quit()
+
 """"
 Box plots (change out the sv, the index for title, and the formatting for the two different box plot sets - bout 
 duration and number of syllables)
 """
+
+sv_titles = ['Duration of Song Bout (s)',
+             'Mean Syllable Duration (ms)',
+             'Mean Inter-Syllable Silence Duration (ms)',
+             'Total Number of Syllables']
+
 # box plot for duration of song bout, take exponential (and convert from ms to s for bout duration)
-# for sv in ['BoutDuration_ms']:  # for bout duration
-for sv in ['NumSyllables']:  # for num of sylls
-    fig = plt.figure(figsize=(7, 11))
-    sns.set(style='white')
-    ax = sns.boxplot(x='CivilTwilight', y=sv, data=combined_df[['CivilTwilight', sv]], color='None',
-                     fliersize=0, width=0.5, linewidth=2, order=['before civil', 'after civil', 'after noon'])
-    ax = sns.stripplot(x='CivilTwilight', y=sv, data=combined_df[['CivilTwilight', sv]],
-                       order=['before civil', 'after civil', 'after noon'],
-                       palette=['black', '#95B2B8', '#F1D302'], size=7, jitter=True, lw=1, alpha=0.6)
-
-    # Make the boxplot fully transparent
-    for patch in ax.artists:
-        r, g, b, a = patch.get_facecolor()
-        patch.set_facecolor((r, g, b, 0))
-
-    # ax.set_ylabel(song_variables[0], fontsize=30)  # for bout duration
-    ax.set_ylabel(song_variables[1], fontsize=30)  # for num of sylls
-    ax.set_xlabel('')
-    ax.tick_params(labelsize=30, direction='out')
-    ax.set(xticklabels=[])
-    plt.setp(ax.spines.values(), linewidth=2)
-    # ax.get_yaxis().set_major_formatter(FuncFormatter(lambda x, p: "%.1f" % (np.exp(x)/1000)))  # for bout duration
-    ax.get_yaxis().set_major_formatter(FuncFormatter(lambda x, p: "%.1f" % (np.exp(x))))  # for num of sylls
-
-    # plt.tight_layout()
-    # pdf = PdfPages("C:/Users/abiga\Box Sync\Abigail_Nicole\ChippiesProject\StatsOfFinalData_withReChipperReExported/TimeAnalysis"
-    #                "/PaperVersion/" + sv + '_Civil' + '.pdf')
-    # pdf.savefig(orientation='landscape')
-    # pdf.close()
-
-    plt.savefig("C:/Users/abiga\Box Sync\Abigail_Nicole\ChippiesProject\StatsOfFinalData_withReChipperReExported"
-                "/TimeAnalysis/" + sv + '_Civil' + '.pdf', type='pdf', dpi=fig.dpi, bbox_inches='tight',
-                transparent=True)
-    # plt.show()
-
+i = 0
+for sv in song_variables:
     fig = plt.figure(figsize=(7, 11))
     sns.set(style='white')
     ax = sns.boxplot(x='Sunrise', y=sv, data=combined_df[['Sunrise', sv]], color='None',
@@ -131,14 +101,21 @@ for sv in ['NumSyllables']:  # for num of sylls
         r, g, b, a = patch.get_facecolor()
         patch.set_facecolor((r, g, b, 0))
 
-    # ax.set_ylabel(song_variables[0], fontsize=30)  # for bout duration
-    ax.set_ylabel(song_variables[1], fontsize=30)  # for num of sylls
+    ax.set_ylabel(sv_titles[i], fontsize=30)
     ax.set_xlabel('')
     ax.tick_params(labelsize=30, direction='out')
     ax.set(xticklabels=[])
     plt.setp(ax.spines.values(), linewidth=2)
-    # ax.get_yaxis().set_major_formatter(FuncFormatter(lambda x, p: "%.1f" % (np.exp(x)/1000)))  # for bout duration
-    ax.get_yaxis().set_major_formatter(FuncFormatter(lambda x, p: "%.1f" % (np.exp(x))))  # for num of sylls
+    if sv == 'Total Number of Syllables (log(number))':
+        ax.get_yaxis().set_major_formatter(FuncFormatter(
+            lambda x, p: "%.1f" % (np.exp(x))))
+    elif sv == 'Duration of Song Bout (log(ms))':
+        ax.get_yaxis().set_major_formatter(FuncFormatter(
+            lambda x, p: "%.1f" % (np.exp(x)/1000)))
+    else:
+        ax.get_yaxis().set_major_formatter(FuncFormatter(
+            lambda x, p: "%.1f" % (np.exp(x))))
+
 
     # plt.tight_layout()
     # pdf = PdfPages("C:/Users/abiga\Box Sync\Abigail_Nicole\ChippiesProject\StatsOfFinalData_withReChipperReExported/TimeAnalysis"
@@ -147,6 +124,9 @@ for sv in ['NumSyllables']:  # for num of sylls
     # pdf.close()
     # plt.show()
 
-    plt.savefig("C:/Users/abiga\Box Sync\Abigail_Nicole\ChippiesProject\StatsOfFinalData_withReChipperReExported"
-                "/TimeAnalysis/" + sv + '_Sunrise' + '.pdf', type='pdf', dpi=fig.dpi, bbox_inches='tight',
+    plt.savefig("C:/Users/abiga\Box Sync\Abigail_Nicole\ChippiesTimeOfDay"
+                "/TODDiscrete/" + sv + '_Sunrise' + '.pdf', type='pdf',
+                dpi=fig.dpi, bbox_inches='tight',
                 transparent=True)
+    i += 1
+
