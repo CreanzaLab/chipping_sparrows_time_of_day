@@ -20,7 +20,7 @@ data_path = ("C:/Users/abiga/Box "
              "_forTOD.csv")
 data_for_TOD = pd.DataFrame.from_csv(data_path, header=0, index_col=0)
 print(data_for_TOD.shape)
-data_for_TOD = data_for_TOD[data_for_TOD['RecordingTime'] < 12*3600]
+data_for_TOD = data_for_TOD[data_for_TOD['RecordingTimeSeconds'] < 12*3600]
 
 print(data_for_TOD.columns)
 print(data_for_TOD.RecordingTime)
@@ -65,8 +65,8 @@ sns.set(style='white',
             'ytick.labelsize': 8})
 
 g = sns.pairplot(data=data_for_TOD,
-                 x_vars=data_for_TOD.columns[3],
-                 y_vars=data_for_TOD.columns[4:],
+                 x_vars=data_for_TOD.columns[4],
+                 y_vars=data_for_TOD.columns[5:],
                  kind='reg')
 
 g.map(corrfunc)
