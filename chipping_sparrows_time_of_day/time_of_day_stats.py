@@ -6,7 +6,7 @@ matplotlib.rcParams['pdf.fonttype'] = 42
 matplotlib.rcParams['ps.fonttype'] = 42
 from matplotlib.backends.backend_pdf import PdfPages
 import seaborn as sns; sns.set()
-from scipy.stats import ranksums
+from scipy.stats import ranksums, sem, levene
 import csv
 from matplotlib.ticker import FuncFormatter
 
@@ -43,23 +43,26 @@ combined_df = combined_df.drop(combined_df[combined_df.Sunrise ==
     drop=True)
 
 print(combined_df.columns)
+print(combined_df.shape)
 print(combined_df.groupby('Sunrise').count()['CatalogNo'])
-
 song_variables = combined_df.columns[1:5]
 
 """
-Wilcoxon Ranksums
+Brown-Forsythe test (Levene's with median)
 """
 
 with open("C:/Users/abiga/Box "
           "Sync/Abigail_Nicole/ChippiesTimeOfDay/TODDiscrete"
-          "/SunriseCivilTwilightNoon_WilcoxonRanksums.csv",
+          "/SunriseCivilTwilightNoon_BrownForsythe_variances.csv",
           'wb') as file:
     filewriter = csv.writer(file, delimiter=',')
     filewriter.writerow(['Song Variable',
                          'Before After Sunrise p-value',
                          'Before Sunrise and After Noon p-value',
-                         'After Sunrise and After Noon p-value'
+                         'After Sunrise and After Noon p-value',
+                         'Before Sunrise Variance',
+                         'Morning Variance',
+                         'Afternoon Variance'
                          ])
 
     for sv in song_variables:
@@ -70,9 +73,51 @@ with open("C:/Users/abiga/Box "
         sunrise_after_noon = combined_df.loc[combined_df['Sunrise'] ==
                                              'after noon', sv]
 
-        filewriter.writerow([sv, ranksums(before_sunrise, after_sunrise)[1],
+        filewriter.writerow([sv,
+                             levene(before_sunrise, after_sunrise,
+                                    center='median')[1],
+                             levene(before_sunrise, sunrise_after_noon,
+                                    center='median')[1],
+                             levene(after_sunrise, sunrise_after_noon,
+                                    center='median')[1],
+                             np.var(before_sunrise),
+                             np.var(after_sunrise),
+                             np.var(sunrise_after_noon)
+                             ])
+
+"""
+Wilcoxon Ranksums
+"""
+
+with open("C:/Users/abiga/Box "
+          "Sync/Abigail_Nicole/ChippiesTimeOfDay/TODDiscrete"
+          "/SunriseCivilTwilightNoon_WilcoxonRanksums_median.csv",
+          'wb') as file:
+    filewriter = csv.writer(file, delimiter=',')
+    filewriter.writerow(['Song Variable',
+                         'Before After Sunrise p-value',
+                         'Before Sunrise and After Noon p-value',
+                         'After Sunrise and After Noon p-value',
+                         'Before Sunrise Median',
+                         'Morning Median',
+                         'Afternoon Median',
+                         ])
+
+    for sv in song_variables:
+        before_sunrise = combined_df.loc[combined_df['Sunrise'] ==
+                                         'before sunrise', sv]
+        after_sunrise = combined_df.loc[combined_df['Sunrise'] ==
+                                        'after sunrise', sv]
+        sunrise_after_noon = combined_df.loc[combined_df['Sunrise'] ==
+                                             'after noon', sv]
+
+        filewriter.writerow([sv,
+                             ranksums(before_sunrise, after_sunrise)[1],
                              ranksums(before_sunrise, sunrise_after_noon)[1],
-                             ranksums(after_sunrise, sunrise_after_noon)[1]
+                             ranksums(after_sunrise, sunrise_after_noon)[1],
+                             np.exp(before_sunrise.median()),
+                             np.exp(after_sunrise.median()),
+                             np.exp(sunrise_after_noon.median()),
                              ])
 
 """"
@@ -84,7 +129,6 @@ sv_titles = ['Duration of Song Bout (s)',
              'Mean Inter-Syllable Silence Duration (ms)',
              'Total Number of Syllables']
 
-# box plot for duration of song bout, take exponential (and convert from ms to s for bout duration)
 i = 0
 for sv in song_variables:
     fig = plt.figure(figsize=(7, 11))
@@ -102,8 +146,7 @@ for sv in song_variables:
 
     ax.set_ylabel(sv_titles[i], fontsize=30)
     ax.set_xlabel('')
-    ax.tick_params(labelsize=30, direction='out')
-    ax.set(xticklabels=[])
+    ax.tick_params(labelsize=15, direction='out')
     plt.setp(ax.spines.values(), linewidth=2)
     if sv == 'Total Number of Syllables (log(number))':
         ax.get_yaxis().set_major_formatter(FuncFormatter(
@@ -114,14 +157,6 @@ for sv in song_variables:
     else:
         ax.get_yaxis().set_major_formatter(FuncFormatter(
             lambda x, p: "%.1f" % (np.exp(x))))
-
-
-    # plt.tight_layout()
-    # pdf = PdfPages("C:/Users/abiga\Box Sync\Abigail_Nicole\ChippiesProject\StatsOfFinalData_withReChipperReExported/TimeAnalysis"
-    #                "/PaperVersion/" + sv + '_Sunrise' + '.pdf')
-    # pdf.savefig(orientation='landscape')
-    # pdf.close()
-    # plt.show()
 
     plt.savefig("C:/Users/abiga\Box Sync\Abigail_Nicole\ChippiesTimeOfDay"
                 "/TODDiscrete/" + sv + '_Sunrise' + '.pdf', type='pdf',
