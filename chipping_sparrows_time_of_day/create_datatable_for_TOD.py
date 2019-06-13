@@ -7,7 +7,7 @@ latitude, longitude, and year
 data_path = 'C:/Users/abiga\Box ' \
             'Sync\Abigail_Nicole\ChippiesProject\FinalDataCompilation' \
             '/FinalDataframe_CombinedTables_withReChipper_' \
-            'thenWithReExportedAs44100Hz_LogTransformed.csv'
+            'thenWithReExportedAs44100Hz_LogTransformed_databaseCorrected.csv'
 log_song_data = pd.DataFrame.from_csv(data_path, header=0, index_col=None)
 
 log_song_data_unique = log_song_data.loc[log_song_data[
