@@ -55,29 +55,32 @@ fig = plt.figure(figsize=(2600 / my_dpi, 1800 / my_dpi), dpi=my_dpi,
                  frameon=False)
 
 # make the background map
-m = Basemap(llcrnrlat=8, llcrnrlon=-169, urcrnrlat=72, urcrnrlon=-52)
+# m = Basemap(llcrnrlat=8, llcrnrlon=-169, urcrnrlat=72, urcrnrlon=-52)
+m = Basemap(llcrnrlat=8, llcrnrlon=-169, urcrnrlat=72, urcrnrlon=-52, projection='merc')
 m.drawcoastlines(color='k', linewidth=1.5)
 m.drawcountries(color='k', linewidth=1.5)
 m.drawstates(color='gray')
 m.drawmapboundary(fill_color='w', color='none')
 
-m.scatter(combined_df['Longitude'], combined_df['Latitude'], marker='o',
+xpts, ypts = m(np.asarray(combined_df['Longitude']), np.asarray(combined_df['Latitude']))
+m.scatter(xpts, ypts, marker='o',
           c=combined_df['RecordingYear'], cmap='cool', edgecolors='k',
           linewidth=0.5, s=200)
 cb = m.colorbar()
-m.scatter(-72.5170, 42.3709, marker='*', color='gold', zorder=5,
+field_x, field_y = m(-72.5170, 42.3709)
+m.scatter(field_x, field_y, marker='*', color='gold', zorder=5,
           edgecolor='k', s=500)
 
 cb.ax.tick_params(labelsize=25)
 
 plt.tight_layout()
 
-# pdf = PdfPages("C:/Users/abiga/Box "
-#                "Sync/Abigail_Nicole/ChippiesTimeOfDay/GeographicSpread_Year"
-#                ".pdf")
-#
-# pdf.savefig(dpi=fig.dpi, orientation='landscape', transparent=True)
-# pdf.close()
+pdf = PdfPages("C:/Users/abiga/Box "
+               "Sync/Abigail_Nicole/ChippiesTimeOfDay/GeographicSpread_Year"
+               ".pdf")
+
+pdf.savefig(dpi=fig.dpi, orientation='landscape', transparent=True)
+pdf.close()
 
 plt.show()
 
@@ -93,13 +96,15 @@ fig = plt.figure(figsize=(2600 / my_dpi, 1800 / my_dpi), dpi=my_dpi,
                  frameon=False)
 
 # make the background map
-m = Basemap(llcrnrlat=8, llcrnrlon=-169, urcrnrlat=72, urcrnrlon=-52)
+# m = Basemap(llcrnrlat=8, llcrnrlon=-169, urcrnrlat=72, urcrnrlon=-52)
+m = Basemap(llcrnrlat=8, llcrnrlon=-169, urcrnrlat=72, urcrnrlon=-52, projection='merc')
 m.drawcoastlines(color='k', linewidth=1.5)
 m.drawcountries(color='k', linewidth=1.5)
 m.drawstates(color='gray')
 m.drawmapboundary(fill_color='w', color='none')
 
-m.scatter(dawn_only['Longitude'], dawn_only['Latitude'], marker='o',
+xpts_dawn, ypts_dawn = m(np.asarray(dawn_only['Longitude']), np.asarray(dawn_only['Latitude']))
+m.scatter(xpts_dawn, ypts_dawn, marker='o',
           c=dawn_only['Duration of Song Bout (log(ms))'], cmap='cool',
           edgecolors='k',
           linewidth=0.5, s=200)
