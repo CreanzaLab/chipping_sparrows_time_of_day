@@ -78,9 +78,14 @@ print(example_files)
 """
 Load in example songs and make figures
 """
+# outputs from before we added data that had been misclassified as Borror Lab but really was ML
+# song_names = ['176261_44k_b5of11_beforesunriseExt.wav',
+#               'XC76506_b1of2_morningExt.wav',
+#               '76777_b4of17_afternoonExt.wav']
+
 song_names = ['176261_44k_b5of11_beforesunriseExt.wav',
-              'XC76506_b1of2_morningExt.wav',
-              '76777_b4of17_afternoonExt.wav']
+              '73829 s1 bout_morningExt_ampmore.wav',  # amplified in Audacity for better visualization in plot
+              '15435 s1 bout_afternoonExt.wav']
 for name in song_names:
     song_file = "C:/Users/abiga\Box " \
                 "Sync\Abigail_Nicole\ChippiesTimeOfDay" \
