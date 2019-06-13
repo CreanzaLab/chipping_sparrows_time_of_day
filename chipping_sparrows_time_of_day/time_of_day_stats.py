@@ -164,3 +164,39 @@ for sv in song_variables:
                 transparent=True)
     i += 1
 
+
+# box plot of entire population, not broken into time of day categories (for supplement)
+i = 0
+for sv in song_variables:
+    fig = plt.figure(figsize=(3.5, 11))
+    sns.set(style='white')
+    sns.set_style("ticks")
+
+    ax = sns.boxplot(y=sv, data=combined_df[[sv]], color='None',
+                     fliersize=0, width=0.5, linewidth=2)
+    ax = sns.stripplot(y=sv, data=combined_df[[sv]], color='grey', size=7, jitter=True, lw=1, alpha=0.6)
+
+    # Make the boxplot fully transparent
+    for patch in ax.artists:
+        r, g, b, a = patch.get_facecolor()
+        patch.set_facecolor((r, g, b, 0))
+
+    ax.set_ylabel(sv_titles[i], fontsize=30)
+    ax.set_xlabel('')
+    ax.tick_params(labelsize=15, direction='out')
+    plt.setp(ax.spines.values(), linewidth=2)
+    if sv == 'Total Number of Syllables (log(number))':
+        ax.get_yaxis().set_major_formatter(FuncFormatter(
+            lambda x, p: "%.1f" % (np.exp(x))))
+    elif sv == 'Duration of Song Bout (log(ms))':
+        ax.get_yaxis().set_major_formatter(FuncFormatter(
+            lambda x, p: "%.1f" % (np.exp(x)/1000)))
+    else:
+        ax.get_yaxis().set_major_formatter(FuncFormatter(
+            lambda x, p: "%.1f" % (np.exp(x))))
+
+    plt.savefig("C:/Users/abiga\Box Sync\Abigail_Nicole\ChippiesTimeOfDay"
+                "/TODDiscrete/AllSongs_" + sv + '_Sunrise' + '.pdf', type='pdf',
+                dpi=fig.dpi, bbox_inches='tight',
+                transparent=True)
+    i += 1
