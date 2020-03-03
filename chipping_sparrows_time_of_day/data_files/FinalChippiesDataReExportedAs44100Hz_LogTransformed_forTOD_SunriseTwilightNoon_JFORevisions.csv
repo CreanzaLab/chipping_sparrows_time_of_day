@@ -1,0 +1,369 @@
+CatalogNo,Sunrise,CivilTwilight,NauticalTwilight,AstronomicalTwilight,SunriseTime,AstroPyTime,TimeDiffSec
+527118,after sunrise,after civil,after nautical,after astronomical,3/30/2017 11:37,3/30/2017 13:15,5870.731652
+15421,--,--,--,--,--,--,--
+64236,--,--,--,--,--,--,--
+64239,--,--,--,--,--,--,--
+64242,--,--,--,--,--,--,--
+64240,--,--,--,--,--,--,--
+64238,--,--,--,--,--,--,--
+22881,--,--,--,--,--,--,--
+44360,after sunrise,after civil,after nautical,after astronomical,5/24/1977 12:18,5/24/1977 14:15,6964.971918
+38511,after sunrise,after civil,after nautical,after astronomical,6/8/1987 9:35,6/8/1987 11:23,6444.01585
+87491,after sunrise,after civil,after nautical,after astronomical,5/5/1998 10:00,5/5/1998 10:56,3320.667577
+64237,--,--,--,--,--,--,--
+167877,after sunrise,after civil,after nautical,after astronomical,7/11/2014 9:43,7/11/2014 12:48,11061.87025
+213694,before sunrise,after civil,after nautical,after astronomical,7/11/2008 9:45,7/11/2008 9:18,-1663.570997
+141608,after sunrise,after civil,after nautical,after astronomical,6/13/2000 12:37,6/13/2000 15:31,10386.19918
+141599,after sunrise,after civil,after nautical,after astronomical,6/13/2000 12:37,6/13/2000 13:35,3426.198171
+176280,before sunrise,after civil,after nautical,after astronomical,6/24/2010 10:25,6/24/2010 9:57,-1698.030819
+176261,before sunrise,after civil,after nautical,after astronomical,7/10/2009 10:32,7/10/2009 10:15,-1072.316909
+176251,after noon,after noon,after noon,after noon,7/3/2009 10:28,7/3/2009 16:30,21691.33159
+176221,after sunrise,after civil,after nautical,after astronomical,6/30/2009 10:27,6/30/2009 10:40,750.3247932
+224622,before sunrise,before civil,after nautical,after astronomical,6/17/2009 9:17,6/17/2009 8:15,-3777.462794
+224606,before sunrise,after civil,after nautical,after astronomical,6/16/2009 9:17,6/16/2009 8:38,-2396.573762
+224629,before sunrise,before civil,after nautical,after astronomical,6/18/2009 9:18,6/18/2009 8:32,-2765.830522
+224604,before sunrise,before civil,after nautical,after astronomical,6/16/2009 9:17,6/16/2009 8:22,-3356.256363
+219595,before sunrise,after civil,after nautical,after astronomical,4/28/2009 10:09,4/28/2009 9:55,-854.4737846
+166621,after noon,after noon,after noon,after noon,5/20/2011 10:38,5/20/2011 23:30,46276.59773
+166698,after sunrise,after civil,after nautical,after astronomical,6/11/2012 12:38,6/11/2012 14:08,5349.781539
+191234,before sunrise,before civil,after nautical,after astronomical,7/10/2012 9:58,7/10/2012 9:16,-2520.423568
+191266,before sunrise,after civil,after nautical,after astronomical,5/23/2003 9:40,5/23/2003 9:35,-316.6893661
+214968,before sunrise,after civil,after nautical,after astronomical,7/14/2014 11:44,7/14/2014 11:38,-371.1210993
+192108,after sunrise,after civil,after nautical,after astronomical,4/26/2014 12:12,4/26/2014 16:06,14028.28359
+192108,after sunrise,after civil,after nautical,after astronomical,4/26/2014 12:12,4/26/2014 16:06,14028.28359
+192107,after sunrise,after civil,after nautical,after astronomical,4/28/2014 12:09,4/28/2014 15:59,13765.23969
+206449,after sunrise,after civil,after nautical,after astronomical,6/2/2015 11:53,6/2/2015 14:22,8939.10354
+206461,after sunrise,after civil,after nautical,after astronomical,6/3/2015 11:52,6/3/2015 15:13,12022.69669
+63970,after sunrise,after civil,after nautical,after astronomical,5/22/1993 9:54,5/22/1993 10:45,3004.468851
+106500,after noon,after noon,after noon,after noon,5/31/1993 12:41,5/31/1993 21:20,31125.63056
+73848,before sunrise,after civil,after nautical,after astronomical,6/8/1995 12:38,6/8/1995 12:20,-1103.169081
+138523,--,--,--,--,--,--,--
+94463,before sunrise,after civil,after nautical,after astronomical,7/19/1998 10:04,7/19/1998 9:55,-548.7653241
+94461,before sunrise,after civil,after nautical,after astronomical,7/19/1998 10:04,7/19/1998 9:55,-548.7964243
+195009,after sunrise,after civil,after nautical,after astronomical,4/25/2012 11:50,4/25/2012 12:27,2208.229962
+177868,--,--,--,--,--,--,--
+179993,after sunrise,after civil,after nautical,after astronomical,6/5/2013 12:39,6/5/2013 14:17,5880.116936
+179374,after sunrise,after civil,after nautical,after astronomical,6/13/2013 12:37,6/13/2013 14:07,5345.168243
+179382,--,--,--,--,--,--,--
+190909,after sunrise,after civil,after nautical,after astronomical,4/21/2014 10:26,4/21/2014 10:29,125.435003
+516141,before sunrise,after civil,after nautical,after astronomical,7/14/2015 11:43,7/14/2015 11:43,-57.99238354
+189871,after sunrise,after civil,after nautical,after astronomical,6/2/2005 12:39,6/2/2005 15:20,9605.261108
+146257,before sunrise,after civil,after nautical,after astronomical,6/26/2005 10:34,6/26/2005 10:00,-2068.927449
+220753,after sunrise,after civil,after nautical,after astronomical,5/5/2009 9:58,5/5/2009 10:51,3130.247269
+171947,before sunrise,after civil,after nautical,after astronomical,6/8/2010 12:38,6/8/2010 12:09,-1791.805176
+172257,after sunrise,after civil,after nautical,after astronomical,6/22/2010 11:42,6/22/2010 12:22,2393.705502
+172206,before sunrise,after civil,after nautical,after astronomical,6/20/2010 11:40,6/20/2010 11:20,-1251.317999
+164429,after sunrise,after civil,after nautical,after astronomical,6/15/2010 12:37,6/15/2010 16:48,15003.32118
+168310,before sunrise,after civil,after nautical,after astronomical,6/26/2011 9:50,6/26/2011 9:30,-1223.849823
+175596,after sunrise,after civil,after nautical,after astronomical,4/27/2013 10:12,4/27/2013 15:37,19497.19746
+181462,after sunrise,after civil,after nautical,after astronomical,6/15/2013 12:38,6/15/2013 17:20,16878.76616
+195793,after sunrise,after civil,after nautical,after astronomical,6/6/2014 9:55,6/6/2014 9:58,159.5570165
+209314,after sunrise,after civil,after nautical,after astronomical,4/20/2014 11:05,4/20/2014 11:30,1469.887233
+15423,--,--,--,--,--,--,--
+15424,--,--,--,--,--,--,--
+15425,--,--,--,--,--,--,--
+15426,after sunrise,after civil,after nautical,after astronomical,4/21/1951 12:17,4/21/1951 13:30,4375.751643
+15427,after sunrise,after civil,after nautical,after astronomical,6/13/1958 11:37,6/13/1958 16:30,17538.96357
+15429,--,--,--,--,--,--,--
+15430,--,--,--,--,--,--,--
+15433,--,--,--,--,--,--,--
+15434,after sunrise,after civil,after nautical,after astronomical,5/15/1962 10:12,5/15/1962 11:50,5840.97206
+15436,after sunrise,after civil,after nautical,after astronomical,6/16/1963 10:21,6/16/1963 15:15,17607.89882
+15444,--,--,--,--,--,--,--
+22883,--,--,--,--,--,--,--
+42245,after sunrise,after civil,after nautical,after astronomical,6/12/1988 12:29,6/12/1988 13:15,2756.412113
+50145,after sunrise,after civil,after nautical,after astronomical,5/12/1990 12:57,5/12/1990 14:56,7085.990921
+73955,after noon,after noon,after noon,after noon,5/27/1992 10:30,5/27/1992 17:12,24072.12329
+76777,after noon,after noon,after noon,after noon,6/4/1992 11:12,6/4/1992 18:11,25110.04839
+93745,after sunrise,after civil,after nautical,after astronomical,5/7/1998 9:59,5/7/1998 12:15,8136.803596
+94464,before sunrise,after civil,after nautical,after astronomical,7/19/1998 10:04,7/19/1998 10:01,-188.1283128
+107546,--,--,--,--,--,--,--
+109257,after sunrise,after civil,after nautical,after astronomical,6/17/2000 12:32,6/17/2000 17:02,16167.21015
+132218,after sunrise,after civil,after nautical,after astronomical,6/24/2006 10:58,6/24/2006 13:05,7574.495418
+75281061,before sunrise,after civil,after nautical,after astronomical,6/11/2015 12:38,6/11/2015 12:20,-1112.103331
+75263881,before sunrise,after civil,after nautical,after astronomical,6/9/2015 12:39,6/9/2015 12:30,-550.0994235
+75257731,before sunrise,after civil,after nautical,after astronomical,6/8/2015 12:39,6/8/2015 12:10,-1760.22727
+72202241,before sunrise,before civil,after nautical,after astronomical,6/21/2004 12:38,6/21/2004 12:00,-2329.806635
+70160751,after sunrise,after civil,after nautical,after astronomical,6/28/2017 9:39,6/28/2017 13:28,13731.68467
+67470971,after noon,after noon,after noon,after noon,6/9/2008 12:39,6/9/2008 21:00,30056.34991
+67370131,before sunrise,before civil,after nautical,after astronomical,6/11/2015 12:38,6/11/2015 12:00,-2312.401418
+65614601,after sunrise,after civil,after nautical,after astronomical,7/4/2017 12:05,7/4/2017 15:39,12809.37802
+65614601,after sunrise,after civil,after nautical,after astronomical,7/4/2017 12:05,7/4/2017 15:39,12809.37802
+65256221,after noon,after noon,after noon,after noon,8/5/2017 10:36,8/5/2017 19:15,31081.61068
+64713371,after sunrise,after civil,after nautical,after astronomical,7/22/2017 10:50,7/22/2017 13:50,10776.03223
+64640681,after sunrise,after civil,after nautical,after astronomical,7/28/2017 10:23,7/28/2017 11:45,4883.625358
+64129161,after sunrise,after civil,after nautical,after astronomical,7/7/2017 9:40,7/7/2017 10:48,4022.44954
+64041271,after noon,after noon,after noon,after noon,7/22/2017 11:05,7/22/2017 17:15,22175.33874
+63757551,after sunrise,after civil,after nautical,after astronomical,7/18/2017 10:10,7/18/2017 12:30,8384.019689
+63496741,after sunrise,after civil,after nautical,after astronomical,7/16/2017 9:48,7/16/2017 11:00,4303.079523
+63391781,before sunrise,after civil,after nautical,after astronomical,7/5/2017 12:47,7/5/2017 12:20,-1632.175907
+62976331,after sunrise,after civil,after nautical,after astronomical,7/9/2017 9:44,7/9/2017 10:59,4489.561107
+30946051,after sunrise,after civil,after nautical,after astronomical,7/5/2016 9:41,7/5/2016 10:45,3789.049186
+51073421,--,--,--,--,--,--,--
+56336181,after sunrise,after civil,after nautical,after astronomical,4/30/2017 10:06,4/30/2017 10:22,919.9351144
+62880971,after sunrise,after civil,after nautical,after astronomical,6/19/2017 10:06,6/19/2017 11:55,6522.753055
+62788091,after sunrise,after civil,after nautical,after astronomical,7/5/2017 9:17,7/5/2017 14:10,17533.90995
+62595431,after noon,after noon,after noon,after noon,7/2/2017 12:01,7/2/2017 20:30,30482.10641
+62534811,after sunrise,after civil,after nautical,after astronomical,7/3/2017 10:20,7/3/2017 12:50,8989.774713
+62507851,after sunrise,after civil,after nautical,after astronomical,7/3/2017 9:59,7/3/2017 12:15,8106.486078
+62503991,before sunrise,after civil,after nautical,after astronomical,7/3/2017 9:53,7/3/2017 9:40,-822.5345626
+62047421,after noon,after noon,after noon,after noon,6/18/2017 10:03,6/18/2017 16:13,22187.20544
+61916011,before sunrise,after civil,after nautical,after astronomical,5/29/2017 9:41,5/29/2017 9:10,-1863.458213
+61752381,before sunrise,before civil,after nautical,after astronomical,6/23/2017 12:05,6/23/2017 11:11,-3268.0498
+61683011,after sunrise,after civil,after nautical,after astronomical,4/23/2017 11:26,4/23/2017 16:57,19855.423
+61229511,after sunrise,after civil,after nautical,after astronomical,6/14/2017 9:33,6/14/2017 14:30,17791.61455
+61110051,after sunrise,after civil,after nautical,after astronomical,5/7/2017 12:43,5/7/2017 13:01,1079.381811
+61069461,after sunrise,after civil,after nautical,after astronomical,6/14/2017 9:33,6/14/2017 14:51,19051.14218
+60991241,after sunrise,after civil,after nautical,after astronomical,6/12/2017 9:34,6/12/2017 10:00,1527.36256
+60937361,after sunrise,after civil,after nautical,after astronomical,5/12/2017 12:05,5/12/2017 13:30,5095.404992
+60835531,before sunrise,after civil,after nautical,after astronomical,6/11/2017 9:32,6/11/2017 9:32,-30.45866221
+60825391,after sunrise,after civil,after nautical,after astronomical,6/11/2017 12:52,6/11/2017 17:18,15910.21253
+59630451,after sunrise,after civil,after nautical,after astronomical,5/28/2017 11:57,5/28/2017 16:37,16767.33197
+59229281,after sunrise,after civil,after nautical,after astronomical,5/16/2017 12:37,5/16/2017 13:23,2759.368351
+59170581,after noon,after noon,after noon,after noon,5/18/2017 12:50,5/19/2017 0:30,41983.37239
+59078691,after sunrise,after civil,after nautical,after astronomical,5/18/2017 12:05,5/18/2017 15:38,12741.526
+58447071,after noon,after noon,after noon,after noon,5/17/2017 9:01,5/17/2017 20:30,41335.39448
+58183101,--,--,--,--,--,--,--
+57546521,after sunrise,after civil,after nautical,after astronomical,5/7/2017 12:09,5/7/2017 13:29,4770.680336
+57546081,after sunrise,after civil,after nautical,after astronomical,5/7/2017 12:09,5/7/2017 12:28,1108.742225
+57536381,after sunrise,after civil,after nautical,after astronomical,4/23/2017 10:16,4/23/2017 10:45,1726.030321
+57327041,before sunrise,after civil,after nautical,after astronomical,5/6/2017 12:32,5/6/2017 12:10,-1370.937127
+57170271,after noon,after noon,after noon,after noon,4/25/2017 10:13,4/25/2017 23:09,46517.77289
+57116861,after sunrise,after civil,after nautical,after astronomical,5/7/2017 10:01,5/7/2017 14:40,16720.90843
+57105731,after sunrise,after civil,after nautical,after astronomical,5/4/2017 9:43,5/4/2017 9:58,852.2614467
+56760661,after sunrise,after civil,after nautical,after astronomical,4/30/2017 10:05,4/30/2017 11:43,5834.73015
+56682831,after noon,after noon,after noon,after noon,3/27/2017 11:53,3/27/2017 23:31,41866.41904
+56466101,after sunrise,after civil,after nautical,after astronomical,4/27/2017 9:53,4/27/2017 11:45,6708.920789
+56335081,after sunrise,after civil,after nautical,after astronomical,4/17/2017 10:01,4/17/2017 11:30,5327.472183
+56023061,after sunrise,after civil,after nautical,after astronomical,4/27/2017 10:09,4/27/2017 10:40,1806.270866
+55941541,after noon,after noon,after noon,after noon,4/27/2017 9:38,4/27/2017 18:13,30892.29654
+55891391,after sunrise,after civil,after nautical,after astronomical,4/26/2017 13:04,4/26/2017 13:48,2594.969493
+55863891,after sunrise,after civil,after nautical,after astronomical,4/26/2017 13:23,4/26/2017 18:16,17550.76903
+55584461,before sunrise,after civil,after nautical,after astronomical,4/23/2017 10:09,4/23/2017 10:01,-530.2221724
+55554691,after noon,after noon,after noon,after noon,4/22/2017 11:22,4/23/2017 0:59,48968.36727
+55470981,after sunrise,after civil,after nautical,after astronomical,4/23/2017 10:06,4/23/2017 14:34,16066.28118
+55344231,after noon,after noon,after noon,after noon,4/20/2017 10:01,4/20/2017 17:35,27193.6401
+55340881,--,--,--,--,--,--,--
+55265651,before sunrise,before civil,after nautical,after astronomical,4/21/2017 13:23,4/21/2017 12:42,-2489.501897
+55176911,after noon,after noon,after noon,after noon,4/20/2017 11:57,4/21/2017 0:10,43928.71373
+55143861,before sunrise,after civil,after nautical,after astronomical,4/20/2017 10:34,4/20/2017 10:30,-247.1058816
+54947101,after sunrise,after civil,after nautical,after astronomical,6/20/2016 10:52,6/20/2016 11:15,1333.868082
+54868471,after sunrise,after civil,after nautical,after astronomical,4/14/2017 10:12,4/14/2017 11:05,3163.448909
+54719121,after sunrise,after civil,after nautical,after astronomical,4/16/2017 11:18,4/16/2017 12:00,2484.87926
+54636381,after sunrise,after civil,after nautical,after astronomical,4/15/2017 10:21,4/15/2017 10:48,1579.221835
+54632481,after noon,after noon,after noon,after noon,4/15/2017 13:38,4/15/2017 22:26,31640.78954
+54615501,after sunrise,after civil,after nautical,after astronomical,4/13/2017 10:18,4/13/2017 10:40,1275.100985
+54367981,after sunrise,after civil,after nautical,after astronomical,4/10/2017 11:03,4/10/2017 14:10,11201.7696
+54245591,after sunrise,after civil,after nautical,after astronomical,4/12/2017 10:32,4/12/2017 11:51,4724.52574
+53817481,after sunrise,after civil,after nautical,after astronomical,4/8/2017 11:16,4/8/2017 11:37,1200.84792
+53817461,after sunrise,after civil,after nautical,after astronomical,4/8/2017 11:16,4/8/2017 11:37,1200.84792
+53487311,after sunrise,after civil,after nautical,after astronomical,4/5/2017 10:27,4/5/2017 11:15,2860.185935
+53420611,after sunrise,after civil,after nautical,after astronomical,4/4/2017 11:11,4/4/2017 14:30,11898.64592
+53366871,after sunrise,after civil,after nautical,after astronomical,4/3/2017 10:50,4/3/2017 15:31,16849.45557
+53021931,after sunrise,after civil,after nautical,after astronomical,3/30/2017 10:57,3/30/2017 11:50,3147.873335
+52971811,after sunrise,after civil,after nautical,after astronomical,3/30/2017 12:33,3/30/2017 13:35,3706.812742
+52867771,after sunrise,after civil,after nautical,after astronomical,3/30/2017 11:51,3/30/2017 13:10,4721.200754
+52595781,after sunrise,after civil,after nautical,after astronomical,3/27/2017 11:07,3/27/2017 13:59,10298.73217
+48237091,after sunrise,after civil,after nautical,after astronomical,6/10/2016 11:02,6/10/2016 11:45,2546.092352
+47744191,after sunrise,after civil,after nautical,after astronomical,6/5/2016 11:07,6/5/2016 13:00,6764.441577
+36028431,after sunrise,after civil,after nautical,after astronomical,6/4/2016 9:33,6/4/2016 11:16,6138.716174
+31668351,after sunrise,after civil,after nautical,after astronomical,7/23/2016 9:30,7/23/2016 15:00,19798.33506
+30045451,after sunrise,after civil,after nautical,after astronomical,6/10/2016 9:07,6/10/2016 13:45,16672.6164
+29912751,before sunrise,before civil,after nautical,after astronomical,6/2/2016 9:17,6/2/2016 8:25,-3159.649493
+29891771,after sunrise,after civil,after nautical,after astronomical,6/4/2016 9:38,6/4/2016 10:46,4080.401502
+29855421,after sunrise,after civil,after nautical,after astronomical,6/5/2016 9:18,6/5/2016 15:43,23078.71134
+29810211,after noon,after noon,after noon,after noon,6/2/2016 9:35,6/2/2016 21:33,43028.94367
+29804411,before sunrise,before civil,after nautical,after astronomical,5/31/2012 9:15,5/31/2012 8:15,-3621.648109
+29405651,after noon,after noon,after noon,after noon,5/25/2016 12:27,5/26/2016 1:30,46959.22226
+28478521,after sunrise,after civil,after nautical,after astronomical,3/12/2016 11:55,3/12/2016 12:43,2876.828927
+27647091,after sunrise,after civil,after nautical,after astronomical,4/25/2016 9:52,4/25/2016 10:01,521.3634333
+27646801,after sunrise,after civil,after nautical,after astronomical,4/25/2016 9:52,4/25/2016 10:01,521.3634333
+27575581,after sunrise,after civil,after nautical,after astronomical,6/21/2015 9:38,6/21/2015 10:40,3712.713553
+27447641,after sunrise,after civil,after nautical,after astronomical,4/22/2016 10:18,4/22/2016 11:35,4616.964126
+27191601,after sunrise,after civil,after nautical,after astronomical,4/17/2016 11:04,4/17/2016 12:44,5968.138013
+26292371,after sunrise,after civil,after nautical,after astronomical,3/27/2016 11:15,3/27/2016 11:25,563.2154882
+25574571,after sunrise,after civil,after nautical,after astronomical,3/11/2016 11:56,3/11/2016 16:55,17912.3358
+XC363865,after sunrise,after civil,after nautical,after astronomical,4/10/2017 10:52,4/10/2017 14:00,11255.89259
+XC378424,after sunrise,after civil,after nautical,after astronomical,6/13/2000 12:37,6/13/2000 13:36,3486.88475
+XC376219,after sunrise,after civil,after nautical,after astronomical,6/9/2017 9:31,6/9/2017 14:00,16112.99382
+XC327741,after sunrise,after civil,after nautical,after astronomical,5/22/2016 10:05,5/22/2016 14:30,15884.81637
+XC325097,after sunrise,after civil,after nautical,after astronomical,6/29/2016 10:02,6/29/2016 16:00,21444.07159
+XC322659,after sunrise,after civil,after nautical,after astronomical,4/23/2015 12:43,4/23/2015 14:32,6528.167709
+XC320440,before sunrise,after civil,after nautical,after astronomical,6/5/2016 10:31,6/5/2016 10:04,-1667.723536
+XC315096,after noon,after noon,after noon,after noon,5/4/2016 11:10,5/4/2016 19:30,29943.10264
+XC313309,after sunrise,after civil,after nautical,after astronomical,4/19/2016 10:48,4/19/2016 15:00,15095.91486
+XC308852,after sunrise,after civil,after nautical,after astronomical,3/26/2016 10:59,3/26/2016 16:00,18019.5522
+XC294364,after sunrise,after civil,after nautical,after astronomical,6/2/2015 11:49,6/2/2015 12:25,2130.660912
+XC293008,after sunrise,after civil,after nautical,after astronomical,6/27/2015 8:55,6/27/2015 12:04,11326.23558
+XC269238,after noon,after noon,after noon,after noon,6/17/2015 12:19,6/18/2015 0:08,42514.05159
+XC269237,after noon,after noon,after noon,after noon,6/17/2015 12:19,6/17/2015 23:59,41974.17538
+XC246585,after noon,after noon,after noon,after noon,5/13/2015 10:40,5/14/2015 0:30,49751.2926
+XC195560,before sunrise,after civil,after nautical,after astronomical,6/25/2014 11:59,6/25/2014 11:31,-1727.905517
+XC189596,after sunrise,after civil,after nautical,after astronomical,6/17/2014 11:09,6/17/2014 15:32,15724.38463
+XC189062,after noon,after noon,after noon,after noon,6/15/2014 11:10,6/15/2014 19:01,28254.54163
+XC188824,after sunrise,after civil,after nautical,after astronomical,6/15/2014 11:10,6/15/2014 11:43,1975.762025
+XC188159,after sunrise,after civil,after nautical,after astronomical,6/12/2014 11:34,6/12/2014 11:58,1399.087797
+XC188094,after sunrise,after civil,after nautical,after astronomical,6/11/2014 11:34,6/11/2014 15:42,14825.64321
+XC179122,after sunrise,after civil,after nautical,after astronomical,5/21/2014 11:24,5/21/2014 15:00,12941.34795
+XC170986,after sunrise,after civil,after nautical,after astronomical,4/8/2012 12:35,4/8/2012 16:30,14051.78309
+XC163938,after sunrise,after civil,after nautical,after astronomical,4/29/2002 12:00,4/29/2002 13:00,3545.486596
+XC142341,after sunrise,after civil,after nautical,after astronomical,6/22/2013 9:51,6/22/2013 12:30,9500.553685
+XC141461,before sunrise,after civil,after nautical,after astronomical,6/28/2013 11:43,6/28/2013 11:30,-818.3666602
+XC139882,after sunrise,after civil,after nautical,after astronomical,5/26/2013 11:25,5/26/2013 14:30,11092.81033
+XC138781,after noon,after noon,after noon,after noon,5/9/2013 12:19,5/9/2013 22:58,38338.35421
+XC131641,before sunrise,after civil,after nautical,after astronomical,4/27/2013 11:13,4/27/2013 10:57,-969.2796189
+XC131573,after sunrise,after civil,after nautical,after astronomical,6/21/2012 12:38,6/21/2012 16:20,13268.85803
+XC125194,before sunrise,before civil,after nautical,after astronomical,5/22/2001 12:44,5/22/2001 12:10,-2076.377316
+XC125192,--,--,--,--,--,--,--
+XC125190,after sunrise,after civil,after nautical,after astronomical,6/16/2000 12:37,6/16/2000 15:10,9178.933954
+XC125188,--,--,--,--,--,--,--
+XC104951,after noon,after noon,after noon,after noon,6/15/2012 12:15,6/15/2012 21:50,34453.85438
+XC83519,--,--,--,--,--,--,--
+XC77992,after noon,after noon,after noon,after noon,5/14/2011 12:10,5/14/2011 19:23,25956.02068
+XC61635,after sunrise,after civil,after nautical,after astronomical,5/18/2010 12:50,5/18/2010 16:55,14682.35735
+XC56891,--,--,--,--,--,--,--
+XC47096,before sunrise,after civil,after nautical,after astronomical,4/17/2010 11:13,4/17/2010 11:00,-822.928682
+XC16985,--,--,--,--,--,--,--
+XC14415,after sunrise,after civil,after nautical,after astronomical,6/25/2007 11:35,6/25/2007 15:13,13048.43356
+XC13646,after sunrise,after civil,after nautical,after astronomical,5/21/2007 9:00,5/21/2007 11:50,10157.75384
+XC12579,after sunrise,after civil,after nautical,after astronomical,4/14/2007 12:46,4/14/2007 13:42,3353.70392
+XC373249,after sunrise,after civil,after nautical,after astronomical,3/30/2017 13:28,3/30/2017 16:00,9096.073991
+XC364591,after sunrise,after civil,after nautical,after astronomical,4/14/2017 10:47,4/14/2017 15:00,15168.5817
+XC359412,after sunrise,after civil,after nautical,after astronomical,6/3/2014 9:39,6/3/2014 11:00,4845.955758
+XC326708,--,--,--,--,--,--,--
+XC325938,after sunrise,after civil,after nautical,after astronomical,6/23/2016 11:46,6/23/2016 15:30,13439.83097
+XC325446,before sunrise,before civil,after nautical,after astronomical,5/14/2016 9:45,5/14/2016 9:00,-2755.461739
+XC324926,after sunrise,after civil,after nautical,after astronomical,4/21/2013 10:48,4/21/2013 11:00,713.3908466
+XC321209,after sunrise,after civil,after nautical,after astronomical,5/14/2016 12:51,5/14/2016 16:45,14003.73259
+XC320337,after sunrise,after civil,after nautical,after astronomical,6/3/2016 10:02,6/3/2016 14:30,16032.15828
+XC315158,--,--,--,--,--,--,--
+XC314922,after sunrise,after civil,after nautical,after astronomical,4/19/2016 11:23,4/19/2016 15:00,13015.24701
+XC313880,after noon,after noon,after noon,after noon,4/13/2016 12:50,4/13/2016 18:30,20396.43238
+XC313469,after sunrise,after civil,after nautical,after astronomical,4/23/2016 11:03,4/23/2016 15:56,17537.46001
+XC313468,after sunrise,after civil,after nautical,after astronomical,4/23/2016 11:03,4/23/2016 12:55,6677.625172
+XC312321,after sunrise,after civil,after nautical,after astronomical,4/10/2016 10:42,4/10/2016 12:22,5940.996259
+XC309778,after noon,after noon,after noon,after noon,3/31/2016 10:51,3/31/2016 18:00,25692.02568
+XC294302,after sunrise,after civil,after nautical,after astronomical,6/2/2015 11:49,6/2/2015 17:04,18893.77883
+XC206093,after sunrise,after civil,after nautical,after astronomical,6/28/2014 11:57,6/28/2014 15:10,11545.69525
+XC195836,after sunrise,after civil,after nautical,after astronomical,6/27/2014 11:41,6/27/2014 15:40,14306.70721
+XC189595,after sunrise,after civil,after nautical,after astronomical,6/17/2014 11:09,6/17/2014 15:03,13984.3761
+XC184387,after sunrise,after civil,after nautical,after astronomical,6/29/2014 12:10,6/29/2014 15:00,10140.5114
+XC182933,after sunrise,after civil,after nautical,after astronomical,6/14/2014 12:14,6/14/2014 15:30,11725.76004
+XC177381,after sunrise,after civil,after nautical,after astronomical,5/2/2014 9:48,5/2/2014 16:00,22309.67945
+XC176359,after sunrise,after civil,after nautical,after astronomical,4/25/2014 9:57,4/25/2014 14:00,14528.05371
+XC137480,before sunrise,after civil,after nautical,after astronomical,6/2/2013 8:52,6/2/2013 8:22,-1818.258831
+XC133534,after sunrise,after civil,after nautical,after astronomical,5/12/2013 9:49,5/12/2013 13:30,13249.15899
+XC131640,after sunrise,after civil,after nautical,after astronomical,4/26/2013 11:14,4/26/2013 11:34,1157.16949
+XC131639,after sunrise,after civil,after nautical,after astronomical,4/26/2013 11:14,4/26/2013 11:34,1157.16949
+XC131638,after sunrise,after civil,after nautical,after astronomical,4/26/2013 11:14,4/26/2013 11:34,1157.16949
+XC125186,--,--,--,--,--,--,--
+XC125185,--,--,--,--,--,--,--
+XC125183,after noon,after noon,after noon,after noon,6/14/2000 12:39,6/14/2000 22:00,33632.41622
+XC125180,after sunrise,after civil,after nautical,after astronomical,7/2/2000 12:46,7/2/2000 18:40,21206.07357
+XC107570,after sunrise,after civil,after nautical,after astronomical,6/20/2012 10:24,6/20/2012 12:30,7524.640846
+XC104707,after sunrise,after civil,after nautical,after astronomical,6/12/2012 12:29,6/12/2012 16:00,12623.86499
+XC102952,after sunrise,after civil,after nautical,after astronomical,6/14/2010 12:38,6/14/2010 15:10,9096.338707
+XC100725,after sunrise,after civil,after nautical,after astronomical,5/8/2012 10:01,5/8/2012 12:00,7119.534226
+XC83733,after sunrise,after civil,after nautical,after astronomical,7/5/2011 9:41,7/5/2011 9:55,798.2869551
+XC81357,after sunrise,after civil,after nautical,after astronomical,6/18/2011 10:28,6/18/2011 14:15,13562.17078
+XC79970,after sunrise,after civil,after nautical,after astronomical,6/5/2011 10:35,6/5/2011 12:17,6108.666826
+XC76506,after sunrise,after civil,after nautical,after astronomical,4/23/2011 11:35,4/23/2011 11:54,1128.903049
+XC72165,after sunrise,after civil,after nautical,after astronomical,5/12/2006 12:52,5/12/2006 15:40,10049.03439
+XC70985,--,--,--,--,--,--,--
+XC52371,after sunrise,after civil,after nautical,after astronomical,6/18/2009 10:24,6/18/2009 13:30,11126.21324
+XC31306,--,--,--,--,--,--,--
+XC31305,--,--,--,--,--,--,--
+XC1256,--,--,--,--,--,--,--
+XC326776,after sunrise,after civil,after nautical,after astronomical,6/4/2016 9:28,6/4/2016 16:00,23463.234
+XC302537,before sunrise,after civil,after nautical,after astronomical,7/14/2013 12:12,7/14/2013 12:00,-743.7403634
+XC289051,after sunrise,after civil,after nautical,after astronomical,5/18/2013 12:33,5/18/2013 17:05,16268.3279
+XC253975,after sunrise,after civil,after nautical,after astronomical,4/6/2015 12:00,4/6/2015 12:55,3242.15831
+XC236651,after sunrise,after civil,after nautical,after astronomical,4/19/2015 10:07,4/19/2015 14:00,13971.81062
+XC210094,after sunrise,after civil,after nautical,after astronomical,3/30/2013 12:45,3/30/2013 16:29,13391.22143
+XC138703,after sunrise,after civil,after nautical,after astronomical,6/17/2013 11:45,6/17/2013 12:39,3196.11143
+XC111473,after sunrise,after civil,after nautical,after astronomical,7/12/2011 12:24,7/12/2011 14:32,7661.030565
+XC82109,after sunrise,after civil,after nautical,after astronomical,6/29/2011 10:27,6/29/2011 13:45,11876.78705
+XC52370,after sunrise,after civil,after nautical,after astronomical,4/7/2009 11:18,4/7/2009 12:30,4294.614874
+XC16984,--,--,--,--,--,--,--
+XC16983,--,--,--,--,--,--,--
+XC308415,after sunrise,after civil,after nautical,after astronomical,3/24/2016 11:43,3/24/2016 13:00,4595.554608
+XC253942,after sunrise,after civil,after nautical,after astronomical,6/20/2015 12:36,6/20/2015 17:00,15784.31333
+XC6244,after sunrise,after civil,after nautical,after astronomical,6/11/2006 11:54,6/11/2006 13:20,5137.193987
+XC17172,--,--,--,--,--,--,--
+XC376768,after sunrise,after civil,after nautical,after astronomical,6/23/2017 12:05,6/23/2017 13:30,5071.349278
+22880,--,--,--,--,--,--,--
+22882,--,--,--,--,--,--,--
+64241,--,--,--,--,--,--,--
+64243,--,--,--,--,--,--,--
+64244,--,--,--,--,--,--,--
+15431,--,--,--,--,--,--,--
+15432,--,--,--,--,--,--,--
+15435,after noon,after noon,after noon,after noon,6/12/1963 9:56,6/12/1963 17:10,26022.79021
+15437,after sunrise,after civil,after nautical,after astronomical,6/23/1963 9:41,6/23/1963 11:40,7132.868795
+15438,before sunrise,after civil,after nautical,after astronomical,6/25/1963 9:26,6/25/1963 9:15,-712.2654143
+15439,after sunrise,after civil,after nautical,after astronomical,5/13/1963 10:35,5/13/1963 15:15,16747.45025
+15441,after sunrise,after civil,after nautical,after astronomical,4/12/1964 11:07,4/12/1964 15:15,14848.16379
+15442,after sunrise,after civil,after nautical,after astronomical,4/24/1964 10:49,4/24/1964 14:00,11419.74393
+15443,after sunrise,after civil,after nautical,after astronomical,6/6/1964 9:57,6/6/1964 10:15,1057.917137
+26263,after sunrise,after civil,after nautical,after astronomical,4/24/1976 10:44,4/24/1976 11:05,1228.590564
+26272,after sunrise,after civil,after nautical,after astronomical,4/24/1976 10:44,4/24/1976 13:25,9628.906958
+26284,after sunrise,after civil,after nautical,after astronomical,5/15/1976 10:20,5/15/1976 11:50,5358.042517
+31,after noon,after noon,after noon,after noon,6/10/1977 12:13,6/10/1977 21:05,31896.05586
+40677,after sunrise,after civil,after nautical,after astronomical,5/5/1985 12:56,5/5/1985 14:30,5617.940533
+39874,after sunrise,after civil,after nautical,after astronomical,4/20/1986 13:28,4/20/1986 14:40,4315.892914
+38506,after sunrise,after civil,after nautical,after astronomical,6/8/1987 9:35,6/8/1987 10:45,4168.284144
+38507,after sunrise,after civil,after nautical,after astronomical,6/8/1987 9:35,6/8/1987 11:00,5064.478733
+39720,after noon,after noon,after noon,after noon,7/22/1987 11:24,7/23/1987 1:25,50450.90674
+49616,after sunrise,after civil,after nautical,after astronomical,6/9/1987 9:35,6/9/1987 12:10,9269.545171
+111029,--,--,--,--,--,--,--
+126472,--,--,--,--,--,--,--
+44647,--,--,--,--,--,--,--
+63030,before sunrise,after civil,after nautical,after astronomical,6/23/1991 12:07,6/23/1991 12:00,-468.0654556
+80351,after sunrise,after civil,after nautical,after astronomical,6/6/1991 12:38,6/6/1991 14:00,4899.771318
+107969,after sunrise,after civil,after nautical,after astronomical,4/28/1992 10:08,4/28/1992 13:00,10296.18106
+105316,after sunrise,after civil,after nautical,after astronomical,6/16/1993 11:36,6/16/1993 14:08,9084.5748
+106527,after sunrise,after civil,after nautical,after astronomical,6/3/1993 12:39,6/3/1993 13:20,2454.553297
+106563,after sunrise,after civil,after nautical,after astronomical,6/13/1993 12:38,6/13/1993 16:25,13600.00205
+105492,after sunrise,after civil,after nautical,after astronomical,6/8/1994 10:26,6/8/1994 15:41,18887.32421
+106641,after sunrise,after civil,after nautical,after astronomical,6/11/1994 12:38,6/11/1994 13:15,2191.557924
+107540,after sunrise,after civil,after nautical,after astronomical,6/3/1994 12:40,6/3/1994 13:30,2989.249769
+76556,after sunrise,after civil,after nautical,after astronomical,6/18/1994 10:50,6/18/1994 15:45,17692.33007
+106704,after sunrise,after civil,after nautical,after astronomical,6/8/1995 12:38,6/8/1995 15:15,9362.912375
+73829,after sunrise,after civil,after nautical,after astronomical,6/6/1995 12:39,6/6/1995 13:20,2436.436155
+106759,after sunrise,after civil,after nautical,after astronomical,6/6/1996 12:39,6/6/1996 14:45,7531.943281
+130474,after sunrise,after civil,after nautical,after astronomical,6/3/1997 11:43,6/3/1997 11:50,390.8981055
+84583,before sunrise,after civil,after nautical,after astronomical,6/12/1997 12:38,6/12/1997 12:01,-2244.629141
+106878,before sunrise,after civil,after nautical,after astronomical,5/28/1998 9:38,5/28/1998 9:15,-1399.692455
+112135,after sunrise,after civil,after nautical,after astronomical,6/11/1998 9:35,6/11/1998 13:15,13198.50269
+94460,before sunrise,after civil,after nautical,after astronomical,7/19/1998 10:04,7/19/1998 9:55,-552.0668551
+106965,after sunrise,after civil,after nautical,after astronomical,6/6/1999 9:26,6/6/1999 15:00,19990.38664
+107017,after sunrise,after civil,after nautical,after astronomical,6/3/2000 12:40,6/3/2000 19:00,22785.34036
+118862,after sunrise,after civil,after nautical,after astronomical,5/25/2001 12:45,5/25/2001 14:41,6947.165831
+118865,after sunrise,after civil,after nautical,after astronomical,5/25/2001 12:44,5/25/2001 15:20,9311.026937
+119431,before sunrise,before civil,after nautical,after astronomical,5/31/2001 12:43,5/31/2001 12:08,-2124.677081
+119474,after sunrise,after civil,after nautical,after astronomical,4/28/2002 13:22,4/28/2002 15:45,8538.341819
+129063,before sunrise,after civil,after nautical,after astronomical,6/17/2005 12:22,6/17/2005 11:56,-1563.295257
+129066,before sunrise,after civil,after nautical,after astronomical,6/17/2005 12:22,6/17/2005 12:18,-243.1381461
+176252,after noon,after noon,after noon,after noon,7/3/2009 10:28,7/3/2009 16:57,23310.9709
+176208,after sunrise,after civil,after nautical,after astronomical,6/28/2009 10:26,6/28/2009 10:45,1136.753212
+219652,after sunrise,after civil,after nautical,after astronomical,5/19/2009 9:44,5/19/2009 11:42,7031.816593
+84755,after sunrise,after civil,after nautical,after astronomical,4/6/1997 10:50,4/6/1997 11:58,4050.729862
+112089,after sunrise,after civil,after nautical,after astronomical,6/8/1998 9:35,6/8/1998 11:51,8131.2276
+61915841,before sunrise,after civil,after nautical,after astronomical,5/29/2017 9:41,5/29/2017 9:10,-1863.458213
+61136181,before sunrise,after civil,after nautical,after astronomical,6/14/2017 9:33,6/14/2017 9:15,-1109.255446
+61082981,after noon,after noon,after noon,after noon,6/13/2017 10:14,6/13/2017 19:40,33938.97692
+59701521,after sunrise,after civil,after nautical,after astronomical,5/29/2017 10:28,5/29/2017 15:40,18708.0864
+58237601,after sunrise,after civil,after nautical,after astronomical,5/15/2017 9:53,5/15/2017 13:05,11460.75114
+56464981,after sunrise,after civil,after nautical,after astronomical,4/27/2017 9:53,4/27/2017 11:10,4613.456672
+47979571,after sunrise,after civil,after nautical,after astronomical,6/10/2016 11:02,6/10/2016 11:45,2546.092352
+31356151,after noon,after noon,after noon,after noon,6/29/2016 12:42,6/30/2016 2:57,51279.35279
+28295391,after sunrise,after civil,after nautical,after astronomical,5/6/2016 10:35,5/6/2016 12:43,7660.907424
+27432141,after sunrise,after civil,after nautical,after astronomical,4/21/2016 10:59,4/21/2016 11:13,800.5035567
+XC313467,after sunrise,after civil,after nautical,after astronomical,4/23/2016 11:03,4/23/2016 12:52,6497.415356
+XC376766,after sunrise,after civil,after nautical,after astronomical,6/23/2017 12:05,6/23/2017 13:00,3271.430267
+XC322656,after sunrise,after civil,after nautical,after astronomical,5/31/2015 12:17,5/31/2015 14:14,7007.921591
+XC205466,before sunrise,before civil,after nautical,after astronomical,5/22/2014 12:03,5/22/2014 11:05,-3526.42947
+XC133489,after sunrise,after civil,after nautical,after astronomical,5/12/2013 9:49,5/12/2013 13:30,13249.15899
+XC253974,after sunrise,after civil,after nautical,after astronomical,4/6/2015 12:00,4/6/2015 12:50,2940.938079
+XC177136,before sunrise,after civil,after nautical,after astronomical,5/4/2014 9:54,5/4/2014 9:30,-1454.697655
+49496,after sunrise,after civil,after nautical,after astronomical,6/13/1990 12:38,6/13/1990 16:00,12101.39448

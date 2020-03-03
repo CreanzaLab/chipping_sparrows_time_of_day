@@ -25,6 +25,9 @@ relative_sunrise = []
 relative_civil = []
 relative_nautical = []
 relative_astronomical = []
+list_sunrise_time = []
+list_astropy_time = []
+list_time_diff_sec = []
 
 for i in range(len(table)):
     lat = Angle(table['Latitude'][i], u.deg)
@@ -60,11 +63,24 @@ for i in range(len(table)):
                 nautical = obs.twilight_morning_nautical(astropy_time, which='nearest')
 
                 if noon < astropy_time:
+                    sunrise = obs.sun_rise_time(astropy_time, which='previous')
+                    sunrise.format = 'datetime'
+                    list_sunrise_time.append(sunrise)
+                    list_astropy_time.append(astropy_time)
+                    time_diff = astropy_time - sunrise
+                    list_time_diff_sec.append(time_diff.sec)
+
                     relative_sunrise.append('after noon')
                     relative_astronomical.append('after noon')
                     relative_civil.append('after noon')
                     relative_nautical.append('after noon')
                 else:
+                    sunrise.format = 'datetime'
+                    list_sunrise_time.append(sunrise)
+                    list_astropy_time.append(astropy_time)
+                    time_diff = astropy_time - sunrise
+                    list_time_diff_sec.append(time_diff.sec)
+
                     if sunrise < astropy_time:
                         relative_sunrise.append('after sunrise')
                     else:
@@ -87,22 +103,34 @@ for i in range(len(table)):
                 relative_astronomical.append('--')
                 relative_civil.append('--')
                 relative_nautical.append('--')
+                list_sunrise_time.append('--')
+                list_astropy_time.append('--')
+                list_time_diff_sec.append('--')
         else:
             relative_sunrise.append('--')
             relative_astronomical.append('--')
             relative_civil.append('--')
             relative_nautical.append('--')
+            list_sunrise_time.append('--')
+            list_astropy_time.append('--')
+            list_time_diff_sec.append('--')
     else:
         relative_sunrise.append('--')
         relative_astronomical.append('--')
         relative_civil.append('--')
         relative_nautical.append('--')
+        list_astropy_time.append('--')
+        list_sunrise_time.append('--')
+        list_time_diff_sec.append('--')
 
-
-table = Table([table['CatalogNo'], relative_sunrise, relative_civil, relative_nautical, relative_astronomical],
-              names=('CatalogNo', 'Sunrise', 'CivilTwilight', 'NauticalTwilight', 'AstronomicalTwilight'))
+table = Table([table['CatalogNo'], relative_sunrise, relative_civil,
+               relative_nautical, relative_astronomical, list_sunrise_time,
+               list_astropy_time, list_time_diff_sec],
+              names=('CatalogNo', 'Sunrise', 'CivilTwilight',
+                     'NauticalTwilight', 'AstronomicalTwilight',
+                     'SunriseTime', 'AstroPyTime', 'TimeDiffSec'))
 with open("C:/Users/abiga/Box "
           "Sync/Abigail_Nicole/ChippiesTimeOfDay"
           "/FinalChippiesDataReExportedAs44100Hz_LogTransformed"
-          "_forTOD_SunriseTwilightNoon.csv", 'wb') as outfile:
+          "_forTOD_SunriseTwilightNoon_JFORevisions.csv", 'wb') as outfile:
     ascii.write(table, format='csv', output=outfile)
