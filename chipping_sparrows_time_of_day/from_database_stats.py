@@ -75,11 +75,15 @@ print(fromML_afternoon.shape)
 
 with open("C:/Users/abiga/Box "
           "Sync/Abigail_Nicole/ChippiesTimeOfDay/TODXenoCantoQuality" 
-          "/databaseBeforeOrMorningOnly_songProp_WilcoxonRanksums_XC.csv",
+          "/databaseBeforeOrMorningOnly_songProp_WilcoxonRanksums_XC_JFORevisions"
+          ".csv",
           'wb') as \
         file:
     filewriter = csv.writer(file, delimiter=',')
     filewriter.writerow(['Song Variable',
+                         'XC vs ML before statistic',
+                         'XC vs ML morning statistic',
+                         'XC vs ML afternoon statistic',
                          'XC vs ML before p-value',
                          'XC vs ML morning p-value',
                          'XC vs ML afternoon p-value'])
@@ -92,6 +96,9 @@ with open("C:/Users/abiga/Box "
         xc_a = np.asarray(fromXC_afternoon[sv])
         ml_a = np.asarray(fromML_afternoon[sv])
         filewriter.writerow([sv,
+                             ranksums(xc_b, ml_b)[0],
+                             ranksums(xc_m, ml_m)[0],
+                             ranksums(xc_a, ml_a)[0],
                              ranksums(xc_b, ml_b)[1],
                              ranksums(xc_m, ml_m)[1],
                              ranksums(xc_a, ml_a)[1]

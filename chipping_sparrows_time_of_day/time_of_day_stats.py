@@ -53,10 +53,13 @@ Brown-Forsythe test (Levene's with median)
 
 with open("C:/Users/abiga/Box "
           "Sync/Abigail_Nicole/ChippiesTimeOfDay/TODDiscrete"
-          "/SunriseCivilTwilightNoon_BrownForsythe_variances.csv",
+          "/SunriseCivilTwilightNoon_BrownForsythe_variances_JFOrevisions.csv",
           'wb') as file:
     filewriter = csv.writer(file, delimiter=',')
     filewriter.writerow(['Song Variable',
+                         'Before After Sunrise statistic',
+                         'Before Sunrise and After Noon statistic',
+                         'After Sunrise and After Noon statistic',
                          'Before After Sunrise p-value',
                          'Before Sunrise and After Noon p-value',
                          'After Sunrise and After Noon p-value',
@@ -75,6 +78,12 @@ with open("C:/Users/abiga/Box "
 
         filewriter.writerow([sv,
                              levene(before_sunrise, after_sunrise,
+                                    center='median')[0],
+                             levene(before_sunrise, sunrise_after_noon,
+                                    center='median')[0],
+                             levene(after_sunrise, sunrise_after_noon,
+                                    center='median')[0],
+                             levene(before_sunrise, after_sunrise,
                                     center='median')[1],
                              levene(before_sunrise, sunrise_after_noon,
                                     center='median')[1],
@@ -91,10 +100,13 @@ Wilcoxon Ranksums
 
 with open("C:/Users/abiga/Box "
           "Sync/Abigail_Nicole/ChippiesTimeOfDay/TODDiscrete"
-          "/SunriseCivilTwilightNoon_WilcoxonRanksums_median.csv",
+          "/SunriseCivilTwilightNoon_WilcoxonRanksums_median_JFOrevisions.csv",
           'wb') as file:
     filewriter = csv.writer(file, delimiter=',')
     filewriter.writerow(['Song Variable',
+                         'Before After Sunrise statistic',
+                         'Before Sunrise and After Noon statistic',
+                         'After Sunrise and After Noon statistic',
                          'Before After Sunrise p-value',
                          'Before Sunrise and After Noon p-value',
                          'After Sunrise and After Noon p-value',
@@ -112,6 +124,9 @@ with open("C:/Users/abiga/Box "
                                              'after noon', sv]
 
         filewriter.writerow([sv,
+                             ranksums(before_sunrise, after_sunrise)[0],
+                             ranksums(before_sunrise, sunrise_after_noon)[0],
+                             ranksums(after_sunrise, sunrise_after_noon)[0],
                              ranksums(before_sunrise, after_sunrise)[1],
                              ranksums(before_sunrise, sunrise_after_noon)[1],
                              ranksums(after_sunrise, sunrise_after_noon)[1],
@@ -120,6 +135,7 @@ with open("C:/Users/abiga/Box "
                              np.exp(sunrise_after_noon.median()),
                              ])
 
+quit()
 """"
 Box plots
 """
