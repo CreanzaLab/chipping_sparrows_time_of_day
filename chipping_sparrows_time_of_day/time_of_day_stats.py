@@ -47,6 +47,12 @@ print(combined_df.shape)
 print(combined_df.groupby('Sunrise').count()['CatalogNo'])
 song_variables = combined_df.columns[1:5]
 
+# #label recordings that used playbacks (for supplemental figure S1)
+# combined_df['PlaybackUsed'] = 'no'
+# combined_df.loc[combined_df.CatalogNo == '60825391', 'PlaybackUsed'] = "yes"
+# combined_df.loc[combined_df.CatalogNo == '44360', 'PlaybackUsed'] = "yes"
+# combined_df.loc[combined_df.CatalogNo == 'XC253974', 'PlaybackUsed'] = "yes"
+
 """
 Brown-Forsythe test (Levene's with median)
 """
@@ -154,7 +160,11 @@ for sv in song_variables:
     ax = sns.stripplot(x='Sunrise', y=sv, data=combined_df[['Sunrise', sv]],
                        order=['before sunrise', 'after sunrise', 'after noon'],
                        palette=['black', '#95B2B8', '#F1D302'], size=7, jitter=True, lw=1, alpha=0.6)
-
+    # uncomment to run for supplemental figure S1
+    # ax = sns.stripplot(x='Sunrise', y=sv,
+    #                    data=combined_df[['Sunrise', 'PlaybackUsed', sv]],
+    #                    order=['before sunrise', 'after sunrise', 'after noon'],
+    #                    hue='PlaybackUsed', size=7, jitter=True, lw=0)
     # Make the boxplot fully transparent
     for patch in ax.artists:
         r, g, b, a = patch.get_facecolor()
